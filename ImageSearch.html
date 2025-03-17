@@ -2,13 +2,42 @@
 <html>
   <head>
     <title>Image Search</title>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      input {
+        align-items: center;
+        width: 70%;
+        border-radius: 20px;
+        margin: 8px 0px;
+        padding: 8px;
+        box-sizing: border-box;
+        transition: 0.3s;
+        margin-left: 160px;
+        background-color: beige;
+      }
+
+      button {
+        align-items: center;
+        width: 70%;
+        border-radius: 20px;
+        margin: 8px 0px;
+        padding: 8px;
+        box-sizing: border-box;
+        transition: 0.3s;
+        margin-left: 160px;
+        background-color: beige;
+      }
+    </style>
   </head>
   <body>
     <div>
       <form action="https://www.google.com/search" method="get">
         <input type="text" name="q" placeholder="Write your search" />
         <input type="hidden" name="tbm" value="isch" />
-        <button type="submit">Pesquisar Imagens</button>
+        <button type="submit">Search images</button>
       </form>
     </div>
   </body>

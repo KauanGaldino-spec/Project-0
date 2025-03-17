@@ -3,7 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Advanced Search</title>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      .list { 
+        align-items: center;
+        width: 70%;
+        border-radius: 20px;
+        margin: 8px 0px;
+        padding: 8px;
+        box-sizing: border-box;
+        transition: 0.3s;
+        margin-left: 160px;
+        background-color: black;
+        ;
+      }
+
+      input {
+             align-items: center;
+        width: 70%;
+        border-radius: 20px;
+        margin: 8px 0px;
+        padding: 8px;
+        box-sizing: border-box;
+        transition: 0.3s;
+        margin-left: 160px;
+      }
+      
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="list">
+      <input name="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="all these words">
+                    <option value="this exact word or phrase">
+                    <option value="any of these words">
+                    <option value="none of these words">
+    </div>
+  </body>
 </html>
